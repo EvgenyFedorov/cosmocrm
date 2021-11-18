@@ -152,6 +152,8 @@ class AuthController extends Controller
 
         if(isset($user)) {
 
+            /// 111
+
             DB::beginTransaction();
 
             //$code = rand(1000, 9999);
