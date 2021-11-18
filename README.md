@@ -11,7 +11,7 @@ composer install
 composer require laravel/passport "~9.0"
 ```
 ```sh
-php artisan migrate
+php artisan migrate:refresh --seed
 ```
 ```sh
 php artisan passport:install

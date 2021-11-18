@@ -18,9 +18,9 @@ Route::group(array('prefix' => 'v1'), function () {
 
     Route::group(array('prefix' => 'users'), function () {
 
-        Route::get('new', [\App\Http\Controllers\Api\AuthController::class, 'registration']);
+        //Route::get('new', [\App\Http\Controllers\Api\AuthController::class, 'registration']);
         Route::post('new', [\App\Http\Controllers\Api\AuthController::class, 'registration']);
-        Route::get('auth', [\App\Http\Controllers\Api\AuthController::class, 'authorization']);
+        //Route::get('auth', [\App\Http\Controllers\Api\AuthController::class, 'authorization']);
         Route::post('auth', [\App\Http\Controllers\Api\AuthController::class, 'authorization']);
 
     });
